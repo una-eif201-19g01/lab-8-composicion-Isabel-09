@@ -7,7 +7,14 @@
 
 
 class Ventana {
-
+	bool polarizada;
+	bool electrica;
+	bool estado;
+public:
+	Ventana(bool, bool, bool);
+	Ventana();
+	void abrir();
+	void cerrar();
 };
 
 

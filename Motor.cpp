@@ -3,3 +3,13 @@
 //
 
 #include "Motor.h"
+Motor::Motor() {}
+Motor::Motor(bool estado) :estado(estado) {
+}
+bool Motor::apagar() {
+	estado = true;
+
+}
+bool Motor::encender() {
+	estado = false;
+}
